@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-04-03
+
+### Fixed
+
+- Corrected `storagePercentageUsed` assignment causing storage bar flicker
+
+### Changed
+
+- Updated large-screen main background position utility (`bg-bottom-right` -> `bg-bottom`)
+- Improved readability of argument normalization for `randomInteger` helper function
+
 ## [1.0.0] - 2026-04-03
 
 ### Added
