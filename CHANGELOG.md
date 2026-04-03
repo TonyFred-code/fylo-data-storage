@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated large screen main `bg-<position>`
+- Updated large-screen main background position utility (`bg-bottom-right` -> `bg-bottom`)
 - Improved readability of argument normalization for `randomInteger` helper function
 
 ## [1.0.0] - 2026-04-03
