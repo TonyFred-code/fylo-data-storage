@@ -51,7 +51,7 @@ export default function App() {
                 <span>1000 GB</span>
               </div>
             </div>
-            <div className="absolute bg-white p-5 text-grayish-blue uppercase rounded-xl rounded-br-none right-0 -top-full  before:content-[''] before:block before:absolute before:-bottom-6 before:right-0 before:border-l-transparent before:border-l-24 before:border-t-24 before:border-t-white items-center gap-2 w-max hidden lg:flex">
+            <div className="absolute bg-white p-5 text-grayish-blue uppercase rounded-xl rounded-br-none right-0 -top-full  before:content-[''] before:block before:absolute before:-bottom-5 before:right-0 before:border-l-transparent before:border-l-24 before:border-t-24 before:border-t-white items-center gap-2 w-max hidden lg:flex">
               <span className="text-blue-950 raleway-extrabold text-5xl">
                 {freeStorage}
               </span>{" "}

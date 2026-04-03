@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2026-04-03
+
+### Changed
+
+- Updated `README.md` content to document project.
+- Made the `free-storage` tooltip and its arrow overlap
+
+### Removed
+
+- Removed project README.md template file
+
+### Added
+
+- Added `AGENTS.md` to document AI collaboration specifications
+- Added screenshots of final build
+
+---
+
 ## [1.0.1] - 2026-04-03
 
 ### Fixed
@@ -17,6 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated large-screen main background position utility (`bg-bottom-right` -> `bg-bottom`)
 - Improved readability of argument normalization for `randomInteger` helper function
+
+---
 
 ## [1.0.0] - 2026-04-03
 
