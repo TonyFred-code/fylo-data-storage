@@ -1,8 +1,9 @@
+import { useState } from "react";
 import Bar from "./components/Bar.jsx";
 import randomInteger from "./lib/randomInteger.js";
 
 export default function App() {
-  const storagePercentageUsed = randomInteger(50, 90); // 50%-90%
+  const [storagePercentageUsed] = useState(() => randomInteger(50, 90)); // 50%-90%
   const totalStorage = 1_000; // 1_000 GB
   const usedStorage = Math.floor((storagePercentageUsed / 100) * totalStorage);
   const freeStorage = totalStorage - usedStorage;
