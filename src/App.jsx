@@ -9,7 +9,7 @@ export default function App() {
   const freeStorage = totalStorage - usedStorage;
 
   return (
-    <div className="min-h-screen bg-blue-950 bg-[url(/images/bg-mobile.png)] lg:bg-[url(/images/bg-desktop.png)] bg-no-repeat lg:bg-bottom-right lg:bg-size-[100%_50%] bg-size-[100%_100%] flex items-center justify-center px-8">
+    <div className="min-h-screen bg-blue-950 bg-[url(/images/bg-mobile.png)] lg:bg-[url(/images/bg-desktop.png)] bg-no-repeat lg:bg-bottom lg:bg-size-[100%_50%] bg-size-[100%_100%] flex items-center justify-center px-8">
       <div className="flex flex-col gap-4 w-full max-w-2xl lg:flex-row lg:w-10/12 lg:max-w-5xl">
         <div className="bg-blue-850 p-10 rounded-lg rounded-tr-[106px] flex flex-col gap-8 lg:flex-2">
           <div>
